@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid #ddd;
+  height: auto;
+  transition: transform 0.3s ease;
+  width: 100%;  /* Set the card to take full width */
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #17a2b8;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;  /* Adjust container padding to make use of full width */
+}
+
+.row {
+  display: flex;
+  flex-direction: column;  /* Adjust the row layout to display in columns */
+  width: 100%;
+}
+
+.col {
+  width: 100%;  /* Set each column to take full width */
+}
